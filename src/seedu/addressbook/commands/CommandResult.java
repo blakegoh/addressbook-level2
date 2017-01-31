@@ -32,5 +32,7 @@ public class CommandResult {
     public Optional<List<? extends ReadOnlyPerson>> getRelevantPersons() {
         return Optional.ofNullable(relevantPersons);
     }
-
+    public getFeedbackToUser(String){
+    	return this.feedbackToUser;
+    }
 }
